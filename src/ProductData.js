@@ -1,22 +1,24 @@
-const ProductData =[
+const productData = [
     {
-        id:1,
-        name:"Ürün1",
-        price:100,
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKC68ilmFZ9_Z0i9Dj2-9dsgr1IU68PWyDjb-6U-YUQ&s"
+      id: 1,
+      name: "Ürün 1",
+      price: 250,
+      image:
+        "https://im.haberturk.com/2023/07/06/3605272_760c878216bca2dc0c9b707fe7f0f6cb.jpg",
     },
     {
-        id:2,
-        name:"Ürün2",
-        price:100,
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKC68ilmFZ9_Z0i9Dj2-9dsgr1IU68PWyDjb-6U-YUQ&s"
+      id: 2,
+      name: "Ürün 2",
+      price: 350,
+      image: "https://img.freepik.com/free-photo/public-examination-preparation-concept_23-2149369831.jpg"
     },
     {
-        id:3,
-        name:"Ürün3",
-        price:100,
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTKC68ilmFZ9_Z0i9Dj2-9dsgr1IU68PWyDjb-6U-YUQ&s"
-    }
-]
-
-export default ProductData
+      id: 3,
+      name: "Ürün 3",
+      price: 400,
+      image:
+        "https://img.freepik.com/premium-photo/colourful-books_940887-110.jpg",
+    },
+  ];
+  
+  export default productData;

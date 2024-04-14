@@ -1,17 +1,19 @@
-import React from 'react'
-import ProductItem from './ProductItem'
-import ProductData from '../ProductData'
+import ProductItem from "./ProductItem";
+import productData from "../ProductData";
 
-  
-
-const Product = (props) => {
+const Products = (props) => {
   return (
-    <div className='grid grid-cols-3 gap-10 mb-8'>
-        {ProductData.map((item)=>(
-          <ProductItem key={item.id} item={item} cart={props.cart} />
-        ))}
+    <div className="grid grid-cols-3 gap-10 mb-8">
+      {productData.map((product) => (
+        <ProductItem
+          key={product.id}
+          product={product}
+          cart={props.cart}
+          setCart={props.setCart}
+        />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Product
+export default Products;
